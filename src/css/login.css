@@ -1,0 +1,144 @@
+@import url(./imports.css);
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(51,56,61);
+    background: linear-gradient(180deg, rgba(51,56,61,1) 0%, rgba(28,29,32,1) 100%);
+    font-family: var(--fonte);
+    
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/bg-login.png);
+    background-repeat: no-repeat;
+    background-position: 
+    right top;
+}
+
+.container-login {
+    width: 50%;
+    height: 100vh;
+}
+
+.container-bgLogo{
+    width: 50%;
+    background-image: url(../img/Logo-Compasso-Branco-hor\ 1.png);
+    background-repeat: no-repeat;
+    background-position-x: 350px;
+    background-position-y: 35px;
+    
+}
+
+.container-login-quadro {
+    margin: 18vh 10vw 18vh 10vw;
+}
+
+.texto-saudacao {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
+}
+
+.texto-saudacao h1 {
+    color: #E0E0E0;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0 0 1rem 0;
+}
+
+.texto-saudacao h3 { 
+    color: #E0E0E0;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 8rem 0;
+}
+
+.login-acesso {
+    display:"";
+}
+
+.login-acesso p {
+    color: #E0E0E0;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 0 1rem 0;
+}
+
+.acesso-credencias {
+    display: flex;
+    flex-direction: column;
+}
+
+.acesso-usuario,.acesso-senha{
+    background-color: transparent;
+    width: 24vw;
+    height: 4vh;
+    border: solid 1px white;
+    border-radius: 26px;
+    margin: .5rem 0;
+    padding: 5px 0 5px 30px;
+    color: #E0E0E0;
+}
+
+
+.credencias-bg {
+    background-repeat: no-repeat;
+    background-position-x: 28vw;
+    background-position-y: center;
+}
+.usuario-bg {
+    background-image: url(../img/icon-user.png);
+}
+
+.senha-bg {
+    background-image: url(../img/icon-password.png);
+}
+
+.login-acesso-negado {
+    width: 24vw;
+    margin:5vh 0;
+}
+.acesso-negado {
+    color: #E9B425;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;;
+}
+
+.login-botao {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;;
+    width: 26vw;
+    height: 5vh;
+    margin: 0 auto;
+    border: none;
+    border-radius: 26px;
+    background: rgb(149,48,28);
+    background: linear-gradient(0deg, rgba(149,48,28,1) 0%, rgba(193,50,22,1) 100%);
+    box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+}
+
+
+@media screen and (max-width: 1900px){
+    .container {
+        background-position-x: 45rem;
+        background-size: auto;
+    }
+    
+    .container-login {
+        display: "";
+    }
+
+    .container-bgLogo{
+        background-position-x: 225px;
+        
+    }
+    
+}
