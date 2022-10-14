@@ -20,18 +20,19 @@
                     <p>Login</p>
                     <div class="acesso-credencias">
                         <div class="credencias-bg usuario-bg">
-                            <input class="acesso-usuario" type="text" placeholder="Usuário"></div>
+                            <input id="usuario" class="acesso-usuario" type="text" placeholder="Usuário" name="usuario"></div>
                         <div class="credencias-bg senha-bg">
-                            <input class="acesso-senha" type="text" placeholder="Senha"></div>
+                            <input id="senha" class="acesso-senha" type="text" placeholder="Senha" name="senha"></div>
                     </div>
                 </section>
-                <div class="login-acesso-negado">
-                    <p class="acesso-negado">Ops, usuário ou senha inválidos.<br> Tente novamente!</p>
+                <div class="container-acesso-negado">
+                    <p class="msg-erro" id="msg-erro"></pclass></p>
                 </div>
-                <button type="button" class="login-botao">Continuar</button>
+                <button type="button" onclick="login()" class="login-botao">Continuar</button>
             </section>
         </section>
         <section class="container-bgLogo"></section>
     </main>
 </body>
+    <script src="../src/js/login.js" ></script>
 </html>

@@ -98,11 +98,18 @@ body {
     background-image: url(../img/icon-password.png);
 }
 
-.login-acesso-negado {
+.container-acesso-negado {
     width: 24vw;
+    height: 4vh;
+    min-width: 24vw;
     margin:5vh 0;
 }
-.acesso-negado {
+
+.acesso-negado-desativado {
+    display: none;
+}
+
+.msg-erro {
     color: #E9B425;
     font-size: 16px;
     font-weight: 400;
