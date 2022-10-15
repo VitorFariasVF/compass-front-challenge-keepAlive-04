@@ -6,9 +6,58 @@ body {
     background-color: white;
 }
 
+.container-cabecalho {
+    display: flex;
+    width: 100vw;
+    height: 18.4vh;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.cabecalho-logo {
+    margin-left: 1rem;
+}
+
+.cabecalho-data-hora {
+    margin: 0 7vw 0 0;
+}
+
+#hora-cabecalho {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.dia-data {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.cabecalho-local-tempo {
+    margin-right: 1rem;
+}
+
 .container-main {
     width: 100vw;
-    height: 90vh;
+    height: 70vh;
+}
+
+.local {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.clima-tempo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0.5rem;
+}
+
+.temperatura {
+    font-size: 32px;
+    font-weight: 700;
+    margin: auto auto auto 1rem;
 }
 
 footer {
