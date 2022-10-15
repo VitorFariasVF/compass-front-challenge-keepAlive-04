@@ -1,0 +1,93 @@
+@import url(./imports.css);
+
+body {
+    font-family: var(--fonte);
+    background-color: black;  
+}
+
+.container-main {
+    width: 100vw;
+    height: 90vh;
+}
+
+footer {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background: pink;
+    background: rgb(69,69,69);
+    background: linear-gradient(90deg, rgba(69,69,69,1) 0%, rgba(28,29,32,1) 100%);
+}
+
+.footer-aviso {
+    display: flex;
+    width: 46vw;
+    height: auto;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer div {
+    width: 1px;
+    height: 5vh;
+    background-color: white;
+}
+
+.f-aviso {
+    font-weight: 400;
+    margin-right: 1rem;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+
+.footer-contador {
+    display: flex;
+    width: 36vw;
+    color: white;
+    margin-left: 1vw;
+}
+
+.f-contador-txt {
+    font-size: 10px;
+    font-weight: 400;
+    padding: 2rem 1rem 2rem 8rem;
+}
+
+.f-contador-timer {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 1rem 0 0;
+}
+
+.f-contador-segundos {
+    font-size: 7px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.footer-botoes {
+    width: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-btn-noticias {
+    width: 8vw;
+    height: 5.2vw;
+    font-size: 13px;
+    font-weight: 500;
+    color: #C13216;
+    background-color: white;
+    border: none;
+}
+
+.footer-btn-logout {
+    text-align: center;
+    width: 9vh;
+    height: auto;
+    color: white;
+    border: none;
+    background-color: transparent;
+}

@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/home.css">
     <title>Home</title>
 </head>
 <body>
-    
+    <header>    
+    </header>
+    <main class="container-main">
+    </main>
+    <footer>
+        <section class="footer-aviso">
+            <p class="f-aviso">Essa janela do navegador é usada para manter sua sessão de autenticação ativa. Deixe-a<br> aberta em segundo plano e abra uma nova janela para continuar a navegar.</p>
+            <div></div>
+        </section>
+        <section class="footer-contador">
+            <p class="f-contador-txt">Application<br> refresh in</p>
+            <section class="timer-contador">
+                <p class="f-contador-timer"
+                id="f-contador-timer"></p>
+                <p class="f-contador-segundos">Segundos</p>
+            </section>
+        </section>
+        <section class="footer-botoes">
+            <button class="footer-btn-noticias" onclick="navegarNoticias()">Continuar<br> Navegando</button>
+            <button class="footer-btn-logout"
+            onclick="logout()">Logout</button>
+        </section>
+    </footer>
+    <script src="../src/js/home.js"></script>
 </body>
 </html>
