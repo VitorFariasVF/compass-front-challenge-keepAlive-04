@@ -1,4 +1,3 @@
-
 var timer = 601
 
 function mostraContador() {
@@ -6,6 +5,8 @@ function mostraContador() {
         if (timer > 0) {
             timer = timer -1
             document.getElementById("f-contador-timer").innerHTML = (timer)
+        } else {
+            abrirModal()
         }
     }, 1000)
 }
@@ -20,6 +21,13 @@ function logout() {
     window.location.assign("../../pages/login.html");
 }
 
-function tempo() {
-    alert("Tempo acabou deseja ficar nessa pagina ?")
+const modal = document.querySelector('.modal-container')
+
+function abrirModal() {
+    modal.classList.add('ativo')    
+}
+
+
+function carregaPagina() {
+    window.location.assign("../../pages/home.html");
 }

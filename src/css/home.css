@@ -1,8 +1,9 @@
 @import url(./imports.css);
+@import url(./modal.css);
 
 body {
     font-family: var(--fonte);
-    background-color: black;  
+    background-color: black;
 }
 
 .container-main {
