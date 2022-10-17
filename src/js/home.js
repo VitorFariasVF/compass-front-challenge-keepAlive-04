@@ -30,6 +30,7 @@ mostraDia()
 mostraHora()
 mostraData()
 
+// FOOTER
 var timer = 601
 
 function mostraContador() {

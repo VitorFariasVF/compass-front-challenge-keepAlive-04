@@ -1,15 +1,15 @@
 hr {
-    border: 0px;
-    border-top: 1px solid lightgray;
+  border: 0px;
+  border-top: 1px solid lightgray;
 }
   
 .modal-container {
-    width: 100vw;
-    position: fixed;
-    top: 30px;
-    display: none;
-    z-index: 999;
-    justify-content: center;
+  width: 100vw;
+  position: fixed;
+  top: 30px;
+  display: none;
+  z-index: 999;
+  justify-content: center;
 }
   
 .modal {
@@ -19,6 +19,8 @@ hr {
   background-color: white;
   border-radius: 10px;
   width: 50%;
+  border: 1px solid;
+  margin-top: 5rem;
 }
  
 .ativo {
