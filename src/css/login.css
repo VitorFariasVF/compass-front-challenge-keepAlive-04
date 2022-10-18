@@ -89,7 +89,14 @@ body {
     background-repeat: no-repeat;
     background-position-x: 28vw;
     background-position-y: center;
+    animation: normal;
+    transition: 1000ms;
 }
+
+.credencias-bg:hover {
+    background-position: 24vw;
+}
+
 .usuario-bg {
     background-image: url(../img/icon-user.png);
 }

@@ -39,9 +39,9 @@ body {
 }
 
 
-.local {
-    font-weight: 500;
-    font-size: 14px;
+#localidade {
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .clima-tempo {
@@ -50,7 +50,7 @@ body {
     margin-top: 0.5rem;
 }
 
-.temperatura {
+#temperatura {
     font-size: 32px;
     font-weight: 700;
     margin: auto auto auto 1rem;
