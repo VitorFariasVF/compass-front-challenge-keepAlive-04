@@ -1,8 +1,9 @@
 const credenciais = {usuario: 'admin', senha: 'admin'};
 let pessoaAcesso = new Object();
 var chaveAcesso = ""
-//var credencialAtiva = false;
 var credencialValida = "";
+const acessoErroUsuario = document.getElementById("acesso-usuario")
+const acessoErroSenha = document.getElementById("acesso-senha")
 
 function login() {
     pessoaAcesso.usuario = document.getElementById("usuario").value;
@@ -29,10 +30,8 @@ function validaLogin() {
 }
 
 function textoErroLogin() { 
-    if (credencialValida == false) {
-        var textoMgsErro = "Ops, usuário ou senha inválidos.<br> Tente novamente!"
-        document.getElementById("msg-erro").innerHTML = (textoMgsErro);
-        //document.getElementById("msg-erro").classList.add("acesso-negado-desativado");
-    }
-    
+    var textoMgsErro = "Ops, usuário ou senha inválidos.<br> Tente novamente!"
+    document.getElementById("msg-erro").innerHTML = (textoMgsErro);
+    /*acessoErroUsuario.classList.add("acesso-usuario-erro"); Erro BUG
+    acessoErroSenha.classList.add("acesso-senha-erro");                   */
 }
