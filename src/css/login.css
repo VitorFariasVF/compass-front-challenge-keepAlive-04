@@ -73,15 +73,19 @@ body {
     flex-direction: column;
 }
 
-.acesso-usuario,.acesso-senha{
+.acesso-usuario, .acesso-senha {
     background-color: transparent;
     width: 24vw;
     height: 4vh;
-    border: solid 1px white;
+    border: solid 1px;
     border-radius: 26px;
     margin: .5rem 0;
     padding: 5px 0 5px 30px;
     color: #E0E0E0;
+}
+.acesso-usuario-erro, .acesso-senha-erro {
+    border: #E9B425;
+    color: #E9B425;
 }
 
 
